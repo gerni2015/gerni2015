@@ -17,8 +17,10 @@ on:
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
